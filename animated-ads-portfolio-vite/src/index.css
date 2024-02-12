@@ -1,0 +1,137 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.3;
+  font-weight: 400;
+  text-rendering: optimizeLegibility;
+}
+
+body {
+  padding: 2rem;
+  display: flex;
+  place-items: start;
+  justify-content: center;
+  text-align: center;
+  min-width: 320px;
+  min-height: 100vh;
+  width: 100vw;
+  height: auto;
+  overflow-x: hidden;
+}
+
+h1 {
+  font-weight: 400;
+}
+
+#page1 h2 {
+  border-style: solid;
+  padding: 1rem;
+  border-radius: 50px;
+  width: 385px;
+}
+
+svg {
+  margin-top: 111px;
+}
+
+#page2 h2 {
+  border-style: solid;
+  padding: 1rem;
+  border-radius: 50px;
+  width: 319px;
+}
+
+#page3 h2 {
+  border-style: solid;
+  padding: 1rem;
+  border-radius: 50px;
+}
+
+#contacto-title {
+  width: 194px;
+}
+
+#habilidades-title {
+  width: 256px;
+}
+
+#page2 p,
+#page3 p {
+  width: 323px;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+
+#techicons>* {
+  width: 43px;
+  margin-left: 1rem;
+}
+
+.project-title {
+  border-style: solid;
+  padding: 1rem;
+  border-radius: 50px;
+  width: 320px;
+}
+
+.project-credits {
+  border-style: solid;
+  padding: 0.5rem;
+  border-radius: 50px;
+  width: 320px;
+  font-size: 20px;
+  margin-bottom: 1rem;
+}
+
+.banner-main-container {
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  height: auto;
+  align-items: center;
+}
+
+.banner-container-columns {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.banner-container-column2 {
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+}
+
+.banner1 {
+  width: 339px;
+  height: 87px;
+  border-style: solid;
+  margin-left: 7px;
+}
+
+.banner2 {
+  width: 148px;
+  height: 297px;
+  border-style: solid;
+  margin: 8px 0px 0px 8px;
+}
+
+.banner3 {
+  width: 175px;
+  height: 146px;
+  border-style: solid;
+  margin: 8px 0px 0px 8px;
+}
+
+.banner4 {
+  width: 170px;
+  height: 126px;
+  border-style: solid;
+  margin: 19px 0px 0px 8px;
+}
