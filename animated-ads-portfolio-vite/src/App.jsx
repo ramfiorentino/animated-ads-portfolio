@@ -1,3 +1,4 @@
+import Banner1Sales from './Banner1Sales.jsx'
 
 function App() {
 
@@ -14,6 +15,7 @@ function App() {
       </section>
 
       <section id='page2'>
+        <img className="profile-pic" src="../src/assets/faceshot-edit.png" alt="profile picture"/>
         <h1>Hola! Soy <br />
           <b>Ram Fiorentino</b>
         </h1>
@@ -57,14 +59,14 @@ function App() {
             • Animación en html5 y css3</p>
         </div>
         <div id='coilabs-banner-main-container' className="banner-main-container">
-          <div className="banner1"></div>
+          <div className="banner1"> <Banner1Sales /> </div>
           <div className="banner-container-columns">
             <div className="banner-container-column1">
-              <div className="banner2"></div>
+              <div className="banner3"></div>
             </div>
             <div className="banner-container-column2">
-              <div className="banner3"></div>
-              <div className="banner4"></div>
+              <div className="banner5"></div>
+              <div className="mobile-mockup"></div>
             </div>
           </div>
         </div>

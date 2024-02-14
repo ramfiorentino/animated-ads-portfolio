@@ -6,44 +6,120 @@
 }
 
 body {
-  padding: 2rem;
-  display: flex;
-  place-items: start;
-  justify-content: center;
-  text-align: center;
+  margin: 0;
   min-width: 320px;
   min-height: 100vh;
   width: 100vw;
   height: auto;
   overflow-x: hidden;
+  animation: bgcolorchange 90s infinite;
+}
+
+@keyframes bgcolorchange {
+    25% { background-color: red; } 
+    50% { background-color: yellow; } 
+    75% { background-color: blue; }
+    100% { background-color: white; } 
+}
+
+svg {
+  margin-top: 111px;
+  animation: bounce2 2s ease infinite;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
 }
 
 h1 {
+  font-weight: 600;
+  margin: 0;
+}
+
+h2 {
   font-weight: 400;
+}
+
+h3 {
+  font-weight: 400;
+  margin: 0;
+}
+
+p, h2, div {
+  border-width: 2px;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 100vh;
+}
+
+section p {
+  font-size: 1rem;
+}
+
+#page1 h1 {
+  font-size: 1.7rem;
+  margin-top: 3rem;
 }
 
 #page1 h2 {
   border-style: solid;
   padding: 1rem;
   border-radius: 50px;
-  width: 385px;
+  width: 80%;
+  max-width: 385px;
+  font-weight: 600;
+  margin-top: 5rem;
 }
 
-svg {
-  margin-top: 111px;
+#page2 p,
+#page3 p {
+  width: 323px;
+  margin: 0;
+}
+
+#page2 h1{
+  font-size: 2rem;
+  font-weight: 300;
+  line-height: 1.2;
+  letter-spacing: 1px;
 }
 
 #page2 h2 {
   border-style: solid;
-  padding: 1rem;
   border-radius: 50px;
   width: 319px;
+  font-size: 2rem;
+  padding: 0.3rem;
+  margin: 1rem;
+}
+
+#page2 h3{
+  margin-top: 3rem;
+  font-weight: 600;
 }
 
 #page3 h2 {
   border-style: solid;
-  padding: 1rem;
+  padding: 0.3rem;
   border-radius: 50px;
+  font-size: 2rem;
+  margin-top: 4rem;
+}
+
+.profile-pic {
+  display: flex;
+  width: 131px;
+  height: 131px;
+  background-color: blue;
+  margin-bottom: 1rem;
+  border-radius: 30px;
 }
 
 #contacto-title {
@@ -54,22 +130,10 @@ svg {
   width: 256px;
 }
 
-#page2 p,
-#page3 p {
-  width: 323px;
-}
-
-section {
-  display: flex;
-  flex-direction: column;
-  height: 100vh;
-  justify-content: center;
-  align-items: center;
-}
-
 #techicons>* {
   width: 43px;
   margin-left: 1rem;
+  margin-top: 1.5rem;
 }
 
 .project-title {
@@ -77,11 +141,13 @@ section {
   padding: 1rem;
   border-radius: 50px;
   width: 320px;
+  margin: 0;
+  margin-bottom: 1rem;
 }
 
 .project-credits {
   border-style: solid;
-  padding: 0.5rem;
+  padding: 0 0.5rem 0 0.5rem;
   border-radius: 50px;
   width: 320px;
   font-size: 20px;
@@ -113,25 +179,42 @@ section {
   height: 87px;
   border-style: solid;
   margin-left: 7px;
+  position: relative;
 }
 
-.banner2 {
+.banner3 {
   width: 148px;
   height: 297px;
   border-style: solid;
   margin: 8px 0px 0px 8px;
 }
 
-.banner3 {
+.banner5 {
   width: 175px;
   height: 146px;
   border-style: solid;
   margin: 8px 0px 0px 8px;
 }
 
-.banner4 {
+.mobile-mockup {
   width: 170px;
   height: 126px;
   border-style: solid;
   margin: 19px 0px 0px 8px;
+}
+
+@keyframes bounce2 {
+  0%,
+  20%,
+  50%,
+  80%,
+  100% {
+    transform: translateY(0);
+  }
+  40% {
+    transform: translateY(-30px);
+  }
+  60% {
+    transform: translateY(-15px);
+  }
 }
