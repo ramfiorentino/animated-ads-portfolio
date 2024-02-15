@@ -1,5 +1,5 @@
-import './bannersales.css'
-import banner1 from './assets/sales-banner/sales-banner-bg.png'
+import './banner1sales.css'
+import banner1 from './sales-banner/sales-banner-bg-1.png'
 
 
 function Banner1Sales() {

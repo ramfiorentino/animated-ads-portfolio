@@ -18,7 +18,7 @@ body {
 @keyframes bgcolorchange {
     25% { background-color: red; } 
     50% { background-color: yellow; } 
-    75% { background-color: blue; }
+    75% { background-color: rgb(70, 70, 255); }
     100% { background-color: white; } 
 }
 
@@ -39,6 +39,13 @@ h1 {
 
 h2 {
   font-weight: 400;
+}
+
+h2:hover {
+  background-color: black;
+  color: white;
+  border-color: black;
+  cursor: default;
 }
 
 h3 {
@@ -111,6 +118,10 @@ section p {
   border-radius: 50px;
   font-size: 2rem;
   margin-top: 4rem;
+}
+
+#page3 {
+  height: 70vh;
 }
 
 .profile-pic {

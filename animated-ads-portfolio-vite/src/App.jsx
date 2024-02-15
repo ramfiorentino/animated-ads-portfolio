@@ -1,4 +1,6 @@
-import Banner1Sales from './Banner1Sales.jsx'
+import Banner1Sales from '../src/bannerSales/Banner1Sales.jsx'
+import Banner5Sales from '../src/bannerSales/Banner5Sales.jsx'
+
 
 function App() {
 
@@ -15,7 +17,7 @@ function App() {
       </section>
 
       <section id='page2'>
-        <img className="profile-pic" src="../src/assets/faceshot-edit.png" alt="profile picture"/>
+        <img className="profile-pic" src="../src/assets/presentation-assets/faceshot-edit.png" alt="profile picture"/>
         <h1>Hola! Soy <br />
           <b>Ram Fiorentino</b>
         </h1>
@@ -24,11 +26,11 @@ function App() {
         <p>A continuación puedes ver una selección de mis producciones de web banners y ads animados con html5 y css3.</p>
         <h3>Herramientas utilizadas</h3>
         <div id='techicons'>
-          <img src="../src/assets/icon-4html.png" alt="icon-html" />
-          <img src="../src/assets/icon-3css.png" alt="icon-html" />
-          <img src="../src/assets/icon-5figma.png" alt="icon-html" />
-          <img src="../src/assets/icon-2ps.png" alt="icon-html" />
-          <img src="../src/assets/icon-1ai.png" alt="icon-html" />
+          <img src="../src/assets/presentation-assets/icon-4html.png" alt="icon-html" />
+          <img src="../src/assets/presentation-assets/icon-3css.png" alt="icon-html" />
+          <img src="../src/assets/presentation-assets/icon-5figma.png" alt="icon-html" />
+          <img src="../src/assets/presentation-assets/icon-2ps.png" alt="icon-html" />
+          <img src="../src/assets/presentation-assets/icon-1ai.png" alt="icon-html" />
         </div>
       </section>
 
@@ -62,10 +64,10 @@ function App() {
           <div className="banner1"> <Banner1Sales /> </div>
           <div className="banner-container-columns">
             <div className="banner-container-column1">
-              <div className="banner3"></div>
+              <div className="banner3"> </div>
             </div>
             <div className="banner-container-column2">
-              <div className="banner5"></div>
+              <div className="banner5"> <Banner5Sales /> </div>
               <div className="mobile-mockup"></div>
             </div>
           </div>
