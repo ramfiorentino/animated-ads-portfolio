@@ -12,6 +12,7 @@ import Banner5Lafat from '../src/bannerLafat/Banner5Lafat.jsx'
 
 
 import Banner1Coilabs from '../src/bannerCoilabs/Banner1Coilabs.jsx'
+import Banner3Coilabs from '../src/bannerCoilabs/Banner3Coilabs.jsx'
 
 
 
@@ -39,11 +40,11 @@ function App() {
         <p>A continuación puedes ver una selección de mis producciones de web banners y ads animados con html5 y css3.</p>
         <h3>Herramientas utilizadas</h3>
         <div id='techicons'>
-          <img src="../src/assets/presentation-assets/icon-4html.png" alt="icon-html" />
-          <img src="../src/assets/presentation-assets/icon-3css.png" alt="icon-html" />
-          <img src="../src/assets/presentation-assets/icon-5figma.png" alt="icon-html" />
-          <img src="../src/assets/presentation-assets/icon-2ps.png" alt="icon-html" />
-          <img src="../src/assets/presentation-assets/icon-1ai.png" alt="icon-html" />
+          <img src="../src/assets/presentation-assets/icon-4html.png" />
+          <img src="../src/assets/presentation-assets/icon-3css.png" />
+          <img src="../src/assets/presentation-assets/icon-5figma.png" />
+          <img src="../src/assets/presentation-assets/icon-2ps.png" />
+          <img src="../src/assets/presentation-assets/icon-1ai.png" />
         </div>
       </section>
 
@@ -77,7 +78,7 @@ function App() {
           <div className="banner1"> <Banner1Coilabs /> </div>
           <div className="banner-container-columns">
             <div className="banner-container-column1">
-              <div className="banner3">  </div>
+              <div className="banner3"> <Banner3Coilabs /> </div>
             </div>
             <div className="banner-container-column2">
               <div className="banner5">  </div>

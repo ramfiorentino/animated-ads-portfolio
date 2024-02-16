@@ -2,20 +2,20 @@
     display: flex;
     justify-content: start;
     align-items: center;
-    width: 339px;
-    height: 87px;
+    width: 148px;
+    height: 297px;
     background-color: white;
     position: relative;
   }
 
 #coilabslogo {
-  max-width: 90%;
+  max-width: 50%;
   margin-left: 0.3rem;
   z-index: 1;
 }
 
 #smalltext {
-  max-width: 80%;
+  max-width: 50%;
   margin-left: 0.3rem;
   position: absolute;
   z-index: 1;
