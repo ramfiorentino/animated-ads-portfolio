@@ -12,7 +12,7 @@ body {
   width: 100vw;
   height: auto;
   overflow-x: hidden;
-  animation: bgcolorchange 90s infinite;
+  animation: bgcolorchange 75s infinite;
 }
 
 @keyframes bgcolorchange {
@@ -22,7 +22,7 @@ body {
     100% { background-color: white; } 
 }
 
-svg {
+#arrowsvg {
   margin-top: 111px;
   animation: bounce2 2s ease infinite;
 }
@@ -120,8 +120,16 @@ section p {
   margin-top: 4rem;
 }
 
+.bannerpage {
+  height: 110vh;
+}
+
 #page3 {
   height: 70vh;
+}
+
+#page7-podcast{
+  margin-bottom: 5rem;
 }
 
 .profile-pic {
@@ -131,6 +139,8 @@ section p {
   background-color: blue;
   margin-bottom: 1rem;
   border-radius: 30px;
+  border-style: solid;
+  border-width: 2px;
 }
 
 #contacto-title {

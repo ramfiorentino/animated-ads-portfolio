@@ -1,0 +1,12 @@
+.banner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 339px;
+    height: 87px;
+    background-color: #f3f7fc;
+  }
+
+.lafatmaingif { /* gif file */
+
+}

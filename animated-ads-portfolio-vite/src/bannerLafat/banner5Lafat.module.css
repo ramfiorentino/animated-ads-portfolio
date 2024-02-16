@@ -1,0 +1,59 @@
+.banner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 175px;
+    height: 146px;
+    background-color: #f3f7fc;
+    position: 
+  }
+
+.container2 {
+  width: 100%;
+}
+.container3 {
+  width: 100%;
+}
+
+.lafatmaingif { /* gif file */
+  width: 100%;
+  margin: 0;
+}
+
+.turquoisestar{
+  width: 20%;
+  margin: 0;
+  animation: dance 1s infinite reverse;
+}
+
+.bluestar{
+  width: 20%;
+  margin: 0;
+  animation: dance 1s infinite;
+}
+
+.blackstar{
+  width: 20px;
+  animation: dance 1s infinite;
+}
+
+.lafatbook {
+  width: 40%;
+  margin: 0;
+}
+
+@keyframes dance {
+  0% {
+    rotate: -6deg;
+  }
+  49% {
+    rotate: -6deg;
+  }
+  50% {
+    rotate: 6deg;
+  }
+  99% {
+    rotate: 6deg;
+  }
+}
