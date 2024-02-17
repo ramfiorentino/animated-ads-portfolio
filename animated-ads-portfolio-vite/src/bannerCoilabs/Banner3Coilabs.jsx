@@ -8,7 +8,7 @@ function Banner3Coilabs() {
     <>
       <div className={styles.banner}>
 
-      <svg id={styles.coilabslogo} width="226" height="535" viewBox="0 0 226 535" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <svg id={styles.coilabslogo3} width="226" height="535" viewBox="0 0 226 535" fill="none" xmlns="http://www.w3.org/2000/svg">
 <rect x="118" y="510" width="25" height="25" fill="black"/>
 <path d="M27.5 0H111.5V116.5H23C9.8 116.5 0 102.5 0 91.5V22.5C0 11 13 0 27.5 0Z" fill="black"/>
 <path d="M115 21C115 13.5 123 1.00001 137 1.00001H205C217 1 226 11.5 226 21V93C226 105.5 214.5 117 205 117H140.5C128.5 117 115 105 115 93V21Z" fill="black"/>

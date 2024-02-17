@@ -13,6 +13,15 @@ import Banner5Lafat from '../src/bannerLafat/Banner5Lafat.jsx'
 
 import Banner1Coilabs from '../src/bannerCoilabs/Banner1Coilabs.jsx'
 import Banner3Coilabs from '../src/bannerCoilabs/Banner3Coilabs.jsx'
+import Banner5Coilabs from '../src/bannerCoilabs/Banner5Coilabs.jsx'
+
+
+import profilepic from "../src/assets/presentation-assets/faceshot-edit.png"
+import icon4html from "../src/assets/presentation-assets/icon-4html.png"
+import icon3css from "../src/assets/presentation-assets/icon-3css.png"
+import icon5figma from "../src/assets/presentation-assets/icon-5figma.png"
+import icon2ps from "../src/assets/presentation-assets/icon-2ps.png"
+import icon1ai  from "../src/assets/presentation-assets/icon-1ai.png"
 
 
 
@@ -31,7 +40,7 @@ function App() {
       </section>
 
       <section id='page2'>
-        <img className="profile-pic" src="../src/assets/presentation-assets/faceshot-edit.png" alt="profile picture"/>
+        <img className="profile-pic" src={profilepic} alt="profile picture"/>
         <h1>Hola! Soy <br />
           <b>Ram Fiorentino</b>
         </h1>
@@ -40,11 +49,12 @@ function App() {
         <p>A continuación puedes ver una selección de mis producciones de web banners y ads animados con html5 y css3.</p>
         <h3>Herramientas utilizadas</h3>
         <div id='techicons'>
-          <img src="../src/assets/presentation-assets/icon-4html.png" />
-          <img src="../src/assets/presentation-assets/icon-3css.png" />
-          <img src="../src/assets/presentation-assets/icon-5figma.png" />
-          <img src="../src/assets/presentation-assets/icon-2ps.png" />
-          <img src="../src/assets/presentation-assets/icon-1ai.png" />
+          <img src={icon4html} />
+          <img src={icon3css} />
+          <img src={icon5figma} />
+          <img src={icon2ps} />
+          <img src={icon1ai} />
+
         </div>
       </section>
 
@@ -81,7 +91,7 @@ function App() {
               <div className="banner3"> <Banner3Coilabs /> </div>
             </div>
             <div className="banner-container-column2">
-              <div className="banner5">  </div>
+              <div className="banner5"> <Banner5Coilabs /> </div>
               <div className="mobile-mockup"></div>
             </div>
           </div>
