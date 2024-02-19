@@ -14,11 +14,10 @@ svg {
 #logocontainer {
   display: flex;
   justify-content: start;
-  align-items: start;
   position: absolute;
   width: 105.03px;
   margin-left: 0.7rem;
-  margin-top: -0.7rem;
+  margin-top: -0.3rem;
   z-index: 1;
   padding: 0;
 }
@@ -34,7 +33,7 @@ svg {
   position: absolute;
   z-index: 1;
   margin-right: 7px;
-  margin-top: 5px;
+  margin-top: 13px;
 }
 
 #spiral {

@@ -23,6 +23,17 @@ import icon5figma from "../src/assets/presentation-assets/icon-5figma.png"
 import icon2ps from "../src/assets/presentation-assets/icon-2ps.png"
 import icon1ai  from "../src/assets/presentation-assets/icon-1ai.png"
 
+import coilabsdeskmock from "../src/bannerCoilabs/coilabs-banner-assets/coilabsdeskmock.png"
+import coilabsmobilemock from "../src/bannerCoilabs/coilabs-banner-assets/coilabsmobilemock.png"
+
+import lafatdeskmock from "../src/bannerLafat/lafat-banner-assets//lafatdeskmock.png"
+import lafatmobilemock from "../src/bannerLafat/lafat-banner-assets/lafatmobilemock.png"
+
+import salesdeskmock from "../src/bannerSales/sales-banner/salesdeskmock.png"
+import salesmobilemock from "../src/bannerSales/sales-banner/salesmobilemock.png"
+
+import podcastdeskmock from "../src/bannerPodcast/podcast-banner/podcastdeskmock.png"
+import podcastmobilemock from "../src/bannerPodcast/podcast-banner/podcastmobilemock.png"
 
 
 function App() {
@@ -49,6 +60,7 @@ function App() {
         <p>A continuación puedes ver una selección de mis producciones de web banners y ads animados con html5 y css3.</p>
         <h3>Herramientas utilizadas</h3>
         <div id='techicons'>
+          
           <img src={icon4html} />
           <img src={icon3css} />
           <img src={icon5figma} />
@@ -62,7 +74,7 @@ function App() {
         <h2 id='contacto-title'>Contacto</h2>
         <p>
           <i className="fa-solid fa-envelope"></i>&nbsp;ramfiorentino@proton.me <br />
-          <i className="fa-brands fa-linkedin"></i>&nbsp;linkedin.com/in/ramfiorentino <br />
+          <i className="fa-brands fa-linkedin"></i> <a href="https://www.linkedin.com/in/ramfiorentino/" target="_blank"> &nbsp;linkedin.com/in/ramfiorentino</a> <br />  
           <i className="fa-solid fa-location-dot"></i>&nbsp;Barcelona, Spain</p>
         <h2 id='habilidades-title'>Habilidades</h2>
         <p>
@@ -92,7 +104,9 @@ function App() {
             </div>
             <div className="banner-container-column2">
               <div className="banner5"> <Banner5Coilabs /> </div>
-              <div className="mobile-mockup"></div>
+              <div className="mobile-mockup">
+                <img src={coilabsmobilemock} />
+              </div>
             </div>
           </div>
         </div>
@@ -113,7 +127,9 @@ function App() {
             </div>
             <div className="banner-container-column2">
               <div className="banner5"> <Banner5Lafat /> </div>
-              <div className="mobile-mockup"></div>
+              <div className="mobile-mockup">
+                <img src={lafatmobilemock} />
+              </div>
             </div>
           </div>
         </div>
@@ -136,14 +152,16 @@ function App() {
             </div>
             <div className="banner-container-column2">
               <div className="banner5"> <Banner5Sales /> </div>
-              <div className="mobile-mockup"></div>
+              <div className="mobile-mockup">
+              <img src={salesmobilemock} />
+              </div>
             </div>
           </div>
         </div>
       </section>
 
       <section id='page7-podcast' className='bannerpage'>
-        <h2 className="project-title">New Podcast Release Banner<br />
+        <h2 className="project-title">New Podcast <br /> Release Banner<br />
         ../personal project_2023</h2>
         <div className="project-credits">
           <p>• Diseño gráfico y adaptación de banner en multiples formatos <br />
@@ -159,14 +177,13 @@ function App() {
             </div>
             <div className="banner-container-column2">
               <div className="banner5"> <Banner5Podcast /> </div>
-              <div className="mobile-mockup"></div>
+              <div className="mobile-mockup">
+              <img src={podcastmobilemock} />
+              </div>
             </div>
           </div>
         </div>
       </section>
-
-      
-
       
 
     </>
