@@ -123,6 +123,7 @@ section p {
 
 .bannerpage {
   height: 110vh;
+  margin-top: 5rem;
 }
 
 #page3 {
@@ -246,9 +247,11 @@ section p {
   }
 }
 
+
 h1, h2, h3, p, div, svg {
   animation: fade-in-left 2s ease ;
-}
+} 
+
 @keyframes fade-in-left {
   0% {
     opacity: 0;
