@@ -25,6 +25,7 @@ body {
 #arrowsvg {
   margin-top: 111px;
   animation: bounce2 2s ease infinite;
+  height: 54px;
 }
 
 img {
@@ -63,7 +64,7 @@ section {
   justify-content: center;
   align-items: center;
   text-align: center;
-  height: 100vh;
+  height: 105vh;
 }
 
 section p {
@@ -121,7 +122,7 @@ section p {
 }
 
 .bannerpage {
-  height: 100vh;
+  height: 110vh;
 }
 
 #page3 {

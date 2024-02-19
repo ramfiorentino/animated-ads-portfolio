@@ -6,9 +6,9 @@ function Banner5Coilabs() {
 
   return (
     <>
-      <div className={styles.banner5}>
 
-        <svg id={styles.coilabslogo5} width="282" height="152" viewBox="0 0 282 152" fill="none" xmlns="http://www.w3.org/2000/svg">
+<div id={styles.logocontainer}> 
+<svg id={styles.coilabslogo5} viewBox="0 0 282 152" fill="none" xmlns="http://www.w3.org/2000/svg">
           <path d="M16.9494 0H68.7223V71.804H14.1759C6.04016 71.804 0 63.1752 0 56.3954V13.8677C0 6.77978 8.01246 0 16.9494 0Z" fill="black" />
           <path d="M70.8795 12.9433C70.8795 8.32075 75.8103 0.616462 84.4391 0.616462H126.35C133.747 0.616455 139.294 7.08807 139.294 12.9433V57.32C139.294 65.0243 132.206 72.1123 126.35 72.1123H86.5963C79.2002 72.1123 70.8795 64.7162 70.8795 57.32V12.9433Z" fill="black" />
           <path d="M196.855 0H142V71.4958H196.855V0Z" fill="black" />
@@ -18,10 +18,15 @@ function Banner5Coilabs() {
           <path d="M231.107 78H279.49V101.113H263.465C266.546 101.113 281.03 106.968 281.03 125.15C281.03 136.244 275.175 149.496 265.006 149.496H212V125.15H227.409C220.629 125.15 212 119.295 212 101.729C212 84.1634 221.553 78 231.107 78Z" fill="black" />
           <rect x="211" y="51" width="16.0233" height="16.0233" fill="black" />
         </svg>
+ </div>
+
+      <div className={styles.banner5}>
+
+        
 
 
 
-        <svg id={styles.smalltext} width="114" height="162" viewBox="0 0 114 162" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <svg id={styles.smalltext} viewBox="0 0 114 162" fill="none" xmlns="http://www.w3.org/2000/svg">
           <path d="M3.8162 0L15.473 0L15.473 16.1668L3.19173 16.1668C1.35996 16.1668 0 14.224 0 12.6975L0 3.12235C0 1.52648 1.80402 0 3.8162 0Z" fill="black" />
           <path d="M16.8608 2.77542C16.8608 1.73464 17.971 0 19.9138 0L29.3502 0C31.0155 0 32.2644 1.4571 32.2644 2.77542V12.7669C32.2644 14.5016 30.6686 16.0974 29.3502 16.0974L20.3995 16.0974C18.7343 16.0974 16.8608 14.4322 16.8608 12.7669L16.8608 2.77542Z" fill="black" />
           <path d="M46.0025 0L33.6519 0V16.0974L46.0025 16.0974V0Z" fill="black" />

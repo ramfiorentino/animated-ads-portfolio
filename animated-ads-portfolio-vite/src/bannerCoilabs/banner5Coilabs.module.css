@@ -1,6 +1,7 @@
 .banner5 {
   display: flex;
   justify-content: end;
+  align-items: start;
   width: 175px;
   height: 146px;
   background-color: white;
@@ -12,18 +13,25 @@ svg {
   width: 100%;
 }
 
-#coilabslogo5 {
-  max-height: 50%;
+#logocontainer {
+  display: flex;
+  justify-content: start;
+  align-items: start;
+  position: absolute;
+  width: 146px;
+  height: auto;
+  margin-top: 55px;
+  margin-left: 10px;
   z-index: 1;
-  margin-top: 1.8rem;
 }
 
 #smalltext {
-  max-width: 46%;
+  max-width: 60px;
+  max-height: 80px;
   position: absolute;
   z-index: 1;
   margin-right: 7px;
-  margin-top: 5px;
+  margin-top: 15px;
 }
 
 #spiral {
