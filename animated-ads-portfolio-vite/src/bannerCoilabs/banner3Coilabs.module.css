@@ -43,5 +43,86 @@ svg {
   z-index: 0;
 }
 
+/* COILABS BIG LOGO ANIMATION*/
+
+#C, #topdashes {
+  animation: coilabslogo 1.5s infinite;  
+  animation-play-state: running;
+
+}
+
+#O{
+  animation: coilabslogo 1s infinite;  
+  animation-delay: 0.6s;
+}
+
+#I{
+  animation: coilabslogo 1s infinite;  
+  animation-delay: 0.3s;
+}
+
+#L{
+  animation: coilabslogo 1s infinite;  
+  animation-delay: 1s;
+}
+
+#A{
+  animation: coilabslogo 1s infinite;  
+  animation-delay: 0.9s;
+}
+
+#B{
+  animation: coilabslogo 1s infinite;  
+  animation-delay: 0.2s;
+}
+
+#S{
+  animation: coilabslogo 1s infinite;  
+  animation-delay: 1s;
+}
+
+#dot {
+  animation: coilabslogo 2s infinite;  
+}
+
+#bottomdashes {
+  animation: coilabslogo 2s infinite;  
+}
+
+#smalltext {
+  animation: smalllogo 6s infinite;  
+} 
+
+@keyframes coilabslogo {
+  0%   {
+    display: none;}
+  5%  {
+    display: block;}
+  8%  {
+    display: none;}
+  14%  {
+    display: none;}
+  17% {
+    display: block;}
+  20% {
+    display: none;}
+  27% {
+    display: block;}
+}
+
+@keyframes smalllogo {
+  0%{
+    opacity: 0;
+  }
+  60% {
+    opacity: 1;
+  }
+  99%{
+    opacity: 1;
+  }
+  100%{
+    opacity: 0;
+  }
+}
 
 
