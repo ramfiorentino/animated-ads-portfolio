@@ -64,7 +64,8 @@ section {
   justify-content: center;
   align-items: center;
   text-align: center;
-  height: 105vh;
+  min-height: 100vh;
+  height: 100vh;
 }
 
 section p {
@@ -105,7 +106,7 @@ section p {
   width: 319px;
   font-size: 2rem;
   padding: 0.3rem;
-  margin: 1rem;
+  margin: 2rem;
 }
 
 #page2 h3{
@@ -118,16 +119,19 @@ section p {
   padding: 0.3rem;
   border-radius: 50px;
   font-size: 2rem;
-  margin-top: 4rem;
+  margin-top: 5rem;
 }
 
-.bannerpage {
-  height: 100vh;
-  margin-top: 3rem;
+#page3 a {
+  text-decoration: none;
+  color: rgb(176, 176, 176);
 }
+
+
 
 #page3 {
-  height: 70vh;
+  min-height: 80vh;
+  height: 80vh;
 }
 
 #page7-podcast{

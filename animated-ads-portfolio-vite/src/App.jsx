@@ -54,6 +54,7 @@ function App() {
         <img className="profile-pic" src={profilepic} alt="profile picture"/>
         <h1>Hola! Soy <br />
           <b>Ram Fiorentino</b>
+          <p>(pronombres elle, él, they/them)</p>
         </h1>
         <h2>Web Developer</h2>
         <p>Desarrollador web frontend y artista digital curioso y proactivo, en constante búsqueda de conocimiento y aprendizaje de nuevas tecnologías.  Me apasiona la innovación y tengo especial interés en la animación web, visualización de datos, creative coding, realidad virtual y el diseño.</p>
@@ -71,7 +72,7 @@ function App() {
       </section>
 
       <section id='page3'>
-        <h2 id='contacto-title'>Contacto</h2>
+      <h2 id='contacto-title'><a href="https://example.com" target="_blank">Contacto</a></h2>
         <p>
           <i className="fa-solid fa-envelope"></i>&nbsp;ramfiorentino@proton.me <br />
           <i className="fa-brands fa-linkedin"></i> <a href="https://www.linkedin.com/in/ramfiorentino/" target="_blank"> &nbsp;linkedin.com/in/ramfiorentino</a> <br />  
@@ -96,7 +97,7 @@ function App() {
             • Diagramación en figma <br />
             • Animación en html5 y css3</p>
         </div>
-        <div id='coilabs-banner-main-container' className="banner-main-container">
+        <div className="banner-main-container">
           <div className="banner1"> <Banner1Coilabs /> </div>
           <div className="banner-container-columns">
             <div className="banner-container-column1">
@@ -119,7 +120,7 @@ function App() {
           <p>• Adaptación a multiples formatos <br />
             • Animación de archivos .png y .gif con html5 + css3 <br /></p>
         </div>
-        <div id='coilabs-banner-main-container' className="banner-main-container">
+        <div className="banner-main-container">
           <div className="banner1"> <Banner1Lafat /> </div>
           <div className="banner-container-columns">
             <div className="banner-container-column1">
@@ -139,12 +140,12 @@ function App() {
         <h2 className="project-title">Sales Ads Banner <br />
         ../personal project_2023</h2>
         <div className="project-credits">
-          <p>• Diseño gráfico y adaptación de banner en multiples formatos <br />
+        <p>• Diseño gráfico y adaptación de <br /> banner en multiples formatos <br />
             • Diagramación en figma <br />
             • Animación en html5 y css3 <br />
             </p>
         </div>
-        <div id='coilabs-banner-main-container' className="banner-main-container">
+        <div className="banner-main-container">
           <div className="banner1"> <Banner1Sales /> </div>
           <div className="banner-container-columns">
             <div className="banner-container-column1">
@@ -164,12 +165,12 @@ function App() {
         <h2 className="project-title">New Podcast <br /> Release Banner<br />
         ../personal project_2023</h2>
         <div className="project-credits">
-          <p>• Diseño gráfico y adaptación de banner en multiples formatos <br />
+          <p>• Diseño gráfico y adaptación de <br /> banner en multiples formatos <br />
             • Diagramación en figma <br />
             • Animación en html5 y css3<br />
             </p>
         </div>
-        <div id='coilabs-banner-main-container' className="banner-main-container">
+        <div className="banner-main-container">
           <div className="banner1"> <Banner1Podcast /> </div>
           <div className="banner-container-columns">
             <div className="banner-container-column1">
