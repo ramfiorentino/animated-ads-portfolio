@@ -8,7 +8,6 @@
 body {
   margin: 0;
   min-width: 320px;
-  min-height: 100vh;
   width: 100vw;
   height: auto;
   overflow-x: hidden;
@@ -65,7 +64,8 @@ section {
   align-items: center;
   text-align: center;
   min-height: 100vh;
-  height: 100vh;
+  height: 100%;
+  margin-bottom: 1rem;
 }
 
 section p {
@@ -128,10 +128,8 @@ section p {
 }
 
 
-
 #page3 {
   min-height: 80vh;
-  height: 80vh;
 }
 
 #page7-podcast{
